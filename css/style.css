@@ -83,6 +83,7 @@ li a{
     animation-timing-function: linear;
     animation-direction: alternate-reverse;
 }
+
 @keyframes anim{
     0%{
         margin-top: 5px;
@@ -93,6 +94,9 @@ li a{
 }
 .prop h3{
     font-size: 23px;
+}
+.borddesk{
+    border-right: none!important;
 }
 .text-gradient{
     -webkit-background-clip: text!important;
@@ -135,4 +139,13 @@ li a{
     }
     
     
+}
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
+    .bordtab{
+        border-right: none;
+        
+    }
+    .bordbot{
+         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+    }
 }
