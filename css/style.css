@@ -58,6 +58,7 @@ li a{
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
  .bt{
-    font-size: 32px;
+    font-size: 36px;
 }
+    
 }
