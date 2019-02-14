@@ -37,15 +37,70 @@ li a{
   color: white;
     font-size: 24px;
 }
+.feat{
+    background-color: #181721;
+}
 .bn{
     background-image:  linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important;
     color:white;
-    font-size: 14px;
+    font-size: 16px;
+    font-weight: 400;
     cursor:pointer;
+}
+.linear{
+      color:  rgba(246, 181, 51, 0.9);
+}
+.prop i{
+    font-size:38px;
+}
+.prop p{
+    font-size: 14px;
+}
+.bn:hover{
+    box-shadow:  0px 5px 15px 0px rgba(255, 255, 255, 0.1);
+    transition: 1s;
+    color: white;
 }
 
 .butt a{
     text-decoration: none;
+}
+.circ{
+   height: 44px;
+    width: 33px;
+    border:2px solid white;
+    border-radius: 45%;    
+   
+}
+.circinner{
+    height: 8px;
+    width: 8px;
+    margin:14px auto;
+    border-radius: 50%;
+    animation:anim 1s;
+    transition: 1s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-direction: alternate-reverse;
+}
+@keyframes anim{
+    0%{
+        margin-top: 5px;
+    }
+    100%{
+        margin-top: 25px;
+    }
+}
+.prop h3{
+    font-size: 23px;
+}
+.text-gradient{
+    -webkit-background-clip: text!important;
+    -webkit-text-fill-color: transparent!important;
+    background: -webkit-linear-gradient(left, #fc4e1b 0%, #f6b533 100%);
+}
+.bord{
+   border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .bt{
@@ -56,9 +111,28 @@ li a{
     }
     
 }
+
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
  .bt{
     font-size: 36px;
 }
+    .prop h3{
+    font-size: 18px;
+}
+    .prop i{
+    font-size:30px;
+}
+.prop p{
+    font-size: 12px;
+}
+    .bord{
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+        border-right: none;
+        padding:10px 0 10px 0; 
+    }
+    .bordnone{
+        border-bottom: none;
+    }
+    
     
 }
