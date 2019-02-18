@@ -2,6 +2,13 @@ body{
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
+.navbar{
+    z-index: 10;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+}
 .landing-page{
     background-image: linear-gradient(rgba(27, 26, 37, 0.9),rgba(27, 26, 37, 0.9)),url(../images/back.jpg);
     background-size: cover;
@@ -11,7 +18,7 @@ li{
     display: inline-block;
 }
 .navb{
-    background-color: rgba(27, 26, 37, 0.9);
+    background-color: rgba(27, 26, 37, 1);
 }
 li a{
    color: white; 
@@ -111,10 +118,21 @@ li a{
 .borddesk{
     border-right: none!important;
 }
+.top h4{
+    position: absolute;
+}
+.top{
+    display: flex;
+    align-items: center;
+}
 .text-gradient{
     -webkit-background-clip: text!important;
     -webkit-text-fill-color: transparent!important;
     background: -webkit-linear-gradient(left, #fc4e1b 0%, #f6b533 100%);
+}
+.our-work h1{
+    font-size: 78px;
+    font-weight: 800;
 }
 .bord{
    border-right: 1px solid rgba(255, 255, 255, 0.05);
@@ -123,6 +141,17 @@ li a{
     background-image: linear-gradient(rgba(27, 26, 37, 0.9),rgba(27, 26, 37, 0.9)),url(../images/about.jpg);
     background-size: cover;
     background-position:center; 
+}
+.work{
+    background-color: #181721;
+}
+.work h3{
+    font-size: 46px;
+}
+
+.aboutus p{
+    font-size: 15px;
+    font-weight: lighter!important;
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .bt{
