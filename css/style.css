@@ -339,10 +339,35 @@ h1 {
 .pr span{
     font-size: 20px;
 }
+.carousel-inner img{
+    width: 100%;
+}
 .particles{
     background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(https://media.giphy.com/media/wOIhMhmfWTsGqxWZ6c/giphy.gif);
     background-size: cover;
     background-position: center;
+}
+.car img{
+    border-radius: 50%;
+}
+.cardd h3{
+    padding: 30px 20px 0px 20px;
+}
+.cardd p{
+    margin: auto;
+    padding-left: 130px;
+}
+
+.testimonals{
+    background-image:linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/pic4.jpg);
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
+.our-blog{
+  background-color: #1b1a25;
+    background-size: cover;
+    padding: 60px 0 60px 0;
+}
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .bt {
@@ -412,6 +437,15 @@ h1 {
     }
     .pad{
         padding: 20px 0 20px 0;
+    }
+    .cardd h3{
+        font-size: 16px;
+    }
+    .cardd p{
+        font-size: 12px;
+    }
+    .pmd{
+        padding-top: 50px!important;
     }
 }
 
