@@ -1,208 +1,397 @@
-body{
+body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
-.navbar{
+
+.navbar {
     z-index: 10;
 }
-.navbar a{
+
+.navbar a {
     color: white;
     text-decoration: none;
 }
-.landing-page{
-    background-image: linear-gradient(rgba(27, 26, 37, 0.9),rgba(27, 26, 37, 0.9)),url(../images/back.jpg);
+
+.landing-page {
+    background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/back.jpg);
     background-size: cover;
-    background-position:center; 
+    background-position: center;
 }
-li{
+
+li {
     display: inline-block;
 }
-.navb{
+
+.navb {
     background-color: rgba(27, 26, 37, 1);
 }
-li a{
-   color: white; 
+
+li a {
+    color: white;
     text-decoration: none;
 }
- h1{
+
+h1 {
     font-size: 89px;
 }
-.pos{
+
+.pos {
     left: 0;
     right: 0;
     top: 0;
 }
-.color{
+
+.color {
     background-image: linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important;
 }
-.sidebar{
+
+.sidebar {
     height: 30px;
     width: 30px;
-   
+
 }
-.sidebar{
-  color: white;
+
+.sidebar {
+    color: white;
     font-size: 24px;
 }
-.feat{
+
+.feat {
     background-color: #181721;
 }
-.bn{
-    background-image:  linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important;
-    color:white;
+
+.bn {
+    background-image: linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important;
+    color: white;
     font-size: 16px;
     font-weight: 400;
-    cursor:pointer;
+    cursor: pointer;
 }
-.linear{
-      color:  rgba(246, 181, 51, 0.9);
+
+.linear {
+    color: rgba(246, 181, 51, 0.9);
 }
-.gradient{
-     background-image:  linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important; 
+
+.gradient {
+    background-image: linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important;
 }
-.aboutin a{
+
+.aboutin a {
     text-decoration: none;
 }
-.aboutin i{
+
+.aboutin i {
     font-size: 38px;
 }
-.aboutin h3{
+
+.aboutin h3 {
     font-size: 24px;
     line-height: 1.4;
 }
-.prop i{
-    font-size:38px;
+
+.prop i {
+    font-size: 38px;
 }
-.prop p{
+
+.prop p {
     font-size: 14px;
 }
-.bn:hover{
-    box-shadow:  0px 5px 15px 0px rgba(255, 255, 255, 0.1);
+
+.bn:hover {
+    box-shadow: 0px 5px 15px 0px rgba(255, 255, 255, 0.1);
     transition: 1s;
     color: white;
 }
 
-.butt a{
+.butt a {
     text-decoration: none;
 }
-.circ{
-   height: 44px;
+
+.circ {
+    height: 44px;
     width: 33px;
-    border:2px solid white;
-    border-radius: 45%;    
-   
+    border: 2px solid white;
+    border-radius: 45%;
+
 }
-.circinner{
+
+.circinner {
     height: 8px;
     width: 8px;
-    margin:14px auto;
+    margin: 14px auto;
     border-radius: 50%;
-    animation:anim 1s;
+    animation: anim 1s;
     transition: 1s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
     animation-direction: alternate-reverse;
 }
 
-@keyframes anim{
-    0%{
+@keyframes anim {
+    0% {
         margin-top: 5px;
     }
-    100%{
+
+    100% {
         margin-top: 25px;
     }
 }
-.prop h3{
+
+.prop h3 {
     font-size: 23px;
 }
-.borddesk{
-    border-right: none!important;
+
+.borddesk {
+    border-right: none !important;
 }
-.top h4{
+
+.top h4 {
     position: absolute;
 }
-.top{
+
+.top {
     display: flex;
     align-items: center;
 }
-.text-gradient{
-    -webkit-background-clip: text!important;
-    -webkit-text-fill-color: transparent!important;
+
+.text-gradient {
+    -webkit-background-clip: text !important;
+    -webkit-text-fill-color: transparent !important;
     background: -webkit-linear-gradient(left, #fc4e1b 0%, #f6b533 100%);
 }
-.our-work h1{
+
+.our-work h1 {
     font-size: 78px;
     font-weight: 800;
 }
-.bord{
-   border-right: 1px solid rgba(255, 255, 255, 0.05);
+
+.bord {
+    border-right: 1px solid rgba(255, 255, 255, 0.05);
 }
-.aboutus{
-    background-image: linear-gradient(rgba(27, 26, 37, 0.9),rgba(27, 26, 37, 0.9)),url(../images/about.jpg);
+
+.aboutus {
+    background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/about.jpg);
     background-size: cover;
-    background-position:center; 
+    background-position: center;
 }
-.work{
+
+.work {
     background-color: #181721;
 }
-.work h3{
+
+.work h3 {
     font-size: 46px;
 }
 
-.aboutus p{
+.aboutus p {
     font-size: 15px;
-    font-weight: lighter!important;
+    font-weight: lighter !important;
+}
+
+.work p {
+    font-size: 15px;
+}
+
+.our-team {
+    background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/team.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.aboutban {
+    background-color: black;
+}
+
+.aboutban a {
+    color: #999;
+    text-decoration: none;
+}
+
+.aboutban a:hover {
+    color: white;
+    transition: .3s;
+}
+
+.teams img {
+    width: 80%;
+    border-radius: 50%;
+}
+
+.teams span {
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+}
+
+.team-1 {
+    position: relative;
+    margin: 0 auto 30px;
+    color: #ececec;
+    cursor: pointer
+}
+
+.titlem {
+    position: absolute;
+    transform: rotate(-90deg);
+    top: 35%;
+    font-size: 38px;
+    font-weight: 800;
+    left: -20%;
+    width: 230px;
+}
+
+.teams h3 {
+    text-align: left !important;
+    font-weight: 800;
+}
+
+.teams p {
+    text-align: left !important;
+    font-size: 14px;
+}
+
+.portfolio {
+    background-color: #181721;
+}
+
+.pics img{
+    width: 100%;
+}
+.slide{
+    position: relative;
+    cursor: pointer;
+}
+.slide::before{
+    content:'';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: rgba(27, 26, 37, 0.7);
+    opacity: 0;
+}
+.cont{
+    position: absolute;
+    z-index: 1;
+    top: 50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    color: white;
+    display: none;
+}
+.slide:hover>.cont{
+    display: block;
+}
+.cont h3{
+    font-weight: bolder;
+}
+.slide:hover::before{
+    opacity: 1;
+  transition: .2s ease;
+}
+.counter{
+    background-color: #181721;
+    padding: 100px;
+}
+.counter i{
+    font-size: 36px;
+}
+.counter h2{
+    display: inline-block;
+    padding: 0 20px 20px 20px;
+    line-height: 1.1;
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-    .bt{
-    font-size: 49px;
-}
-    .navbar ul li{
+    .bt {
+        font-size: 49px;
+    }
+
+    .navbar ul li {
         font-size: 14px;
     }
-    
+
 }
 
 @media only screen and (min-device-width : 0px) and (max-device-width : 480px) {
- .bt{
-    font-size: 36px;
-}
-    .prop h3{
-    font-size: 18px;
-}
-    .prop i{
-    font-size:30px;
-}
-.prop p{
-    font-size: 12px;
-}
-    .aboutin h3{
+    .bt {
+        font-size: 36px;
+    }
+
+    .prop h3 {
+        font-size: 18px;
+    }
+
+    .prop i {
+        font-size: 30px;
+    }
+
+    .prop p {
+        font-size: 12px;
+    }
+
+    .aboutin h3 {
         font-size: 21px;
     }
-    .aboutus p{
+
+    .work h3 {
+        font-size: 24px;
+    }
+
+    .aboutus p {
         font-size: 14px;
     }
-    
-    .bord{
+
+    .bord {
         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
         border-right: none;
-        padding:10px 0 10px 0; 
+        padding: 10px 0 10px 0;
     }
-    .bordnone{
+
+    .bordnone {
         border-bottom: none;
     }
-    
-    
+
+    .teams h3 {
+        margin-top: 40px;
+    }
+
+    .titlem {
+        top: 30%;
+    }
+    .counter{
+        padding: 30px;
+    }
+    .counter h3{
+        font-size: 24px;
+    }
+    .counter h2{
+        font-weight: bold;
+    }
+    .pad{
+        padding: 20px 0 20px 0;
+    }
 }
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px){
-    .bordtab{
+
+
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
+    .bordtab {
         border-right: none;
-        
+
     }
-    .bordbot{
-         border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+
+    .bordbot {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05);
     }
-    .aboutin h3{
+
+    .aboutin h3 {
         font-size: 22px;
+    }
+
+    .teams img {
+        width: 80%;
+        border-radius: 50%;
+    }
+
+    .titlem {
+        left: -15%;
     }
 }
