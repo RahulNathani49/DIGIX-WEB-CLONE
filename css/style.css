@@ -2,19 +2,23 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
+
 ::-webkit-scrollbar {
     width: 12px;
     background-color: #201f27;
 }
+
 ::-webkit-scrollbar-thumb {
     background-color: #242331;
     height: 65px;
     border: 1px solid #999;
 }
+
 ::-webkit-scrollbar-track {
     background-color: #1a1924;
     border-left: 1px solid #999;
 }
+
 .navbar {
     z-index: 10;
 }
@@ -23,6 +27,11 @@ body {
     color: white;
     text-decoration: none;
 }
+.navbar a:hover{
+    color: gray;
+    transition: .3s;
+}
+
 .landing-page {
     background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/back.jpg);
     background-size: cover;
@@ -199,6 +208,7 @@ h1 {
     font-weight: lighter !important;
 }
 
+
 .work p {
     font-size: 15px;
 }
@@ -209,13 +219,19 @@ h1 {
     background-position: center;
 }
 
+.fade img {
+    width: 100%;
+    z-index: 1;
+}
+
 .aboutban {
     background-color: black;
 }
 
-.aboutban li{
+.aboutban li {
     display: inline-block;
 }
+
 .aboutban a {
     color: #999;
     text-decoration: none;
@@ -268,106 +284,326 @@ h1 {
     background-color: #181721;
 }
 
-.pics img{
+.pics img {
     width: 100%;
 }
-.slide{
+
+.slide {
     position: relative;
     cursor: pointer;
 }
-.slide::before{
-    content:'';
+
+.slide::before {
+    content: '';
     width: 100%;
     height: 100%;
     position: absolute;
     background-color: rgba(27, 26, 37, 0.7);
     opacity: 0;
 }
-.cont{
+
+.cont {
     position: absolute;
     z-index: 1;
     top: 50%;
-    left:50%;
-    transform:translate(-50%,-50%);
+    left: 50%;
+    transform: translate(-50%, -50%);
     color: white;
     display: none;
 }
-.slide:hover>.cont{
+
+.slide:hover > .cont {
     display: block;
 }
-.cont h3{
+
+.cont h3 {
     font-weight: bolder;
 }
-.slide:hover::before{
+
+.slide:hover::before {
     opacity: 1;
-  transition: .2s ease;
+    transition: .2s ease;
 }
-.counter{
+
+.counter {
     background-color: #181721;
     padding: 100px;
 }
-.counter i{
+
+.counter i {
     font-size: 36px;
 }
-.counter h2{
+
+.counter h2 {
     display: inline-block;
     padding: 0 20px 20px 20px;
     line-height: 1.1;
 }
-.our-prices{
-    background-image:linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/prices.jpg) 
+
+.our-prices {
+    background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/prices.jpg)
 }
-.pr{
-    background-color: rgba(29,28,39,0.69);
-        padding: 25px 0 50px;
-    
+
+.pr {
+    background-color: rgba(29, 28, 39, 0.69);
+    padding: 25px 0 50px;
+
 }
-.pr h4{
-      background-image: linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important;
+
+.pr h4 {
+    background-image: linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important;
     font-weight: 800;
 }
-.pr li{
+
+.pr li {
     list-style: none;
     padding: 10px 0 10px 0;
 }
-.pr ul{
+
+.pr ul {
     padding: 20px 0 20px 0;
 }
-.pr h2{
+
+.pr h2 {
     font-size: 45px;
 }
-.pr span{
+
+.pr span {
     font-size: 20px;
 }
-.carousel-inner img{
-    width: 100%;
-}
-.particles{
+
+.particles {
     background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(https://media.giphy.com/media/wOIhMhmfWTsGqxWZ6c/giphy.gif);
     background-size: cover;
     background-position: center;
 }
-.car img{
+
+.car img {
     border-radius: 50%;
 }
-.cardd h3{
+
+.cardd h3 {
     padding: 30px 20px 0px 20px;
 }
-.cardd p{
+
+.cardd p {
     margin: auto;
     padding-left: 130px;
 }
 
-.testimonals{
-    background-image:linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/pic4.jpg);
+.testimonals {
+    background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/pic4.jpg);
     background-size: cover;
     padding: 60px 0 60px 0;
 }
-.our-blog{
-  background-color: #1b1a25;
+
+.our-blog {
+    background-color: #1b1a25;
     background-size: cover;
     padding: 60px 0 60px 0;
 }
+
+.test img {
+    width: 100%;
+}
+
+.imgg {
+    position: relative;
+}
+
+.img1 {
+    background-image: url(../images/img1.jpg);
+    background-size: cover;
+}
+
+.img2 {
+    background-image: url(../images/img2.jpg);
+    background-size: cover;
+}
+
+.img3 {
+    background-image: url(../images/img3.jpg);
+    background-size: cover;
+}
+
+.img4 {
+    background-image: url(../images/img4.jpg);
+    background-size: cover;
+}
+
+.down {
+    margin-top: 150px;
+    padding-top: 70px;
+}
+
+.page {
+    background-color: rgba(31, 30, 41, 0.7);
+    cursor: pointer;
+}
+
+.page:hover {
+    background-color: rgba(31, 30, 41, 0.9);
+    transition: .3s;
+}
+
+.icon {
+    opacity: 0;
+}
+
+.para {
+    visibility: hidden;
+}
+
+.page:hover > .para {
+    visibility: visible;
+    transition: .3s;
+}
+
+.page:hover > .icon {
+    opacity: 1;
+    transition: .3s;
+}
+
+.button {
+    background-image:
+}
+
+.icon {
+    margin-bottom: 100px;
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align: center;
+    background-image: linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important;
+}
+
+.page i {
+    font-size: 18px;
+}
+
+.inter {
+    font-size: 14px;
+
+}
+.contact{
+       background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/nasa.jpg);
+}
+.contact p{
+    font-size: 14px;
+}
+.details i{
+    padding: 0 13px 0 0px;
+}
+.cic i{
+    padding: 0!important;
+}
+.cic{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    line-height: 40px;
+    text-align:center;
+    margin-right: 10px;
+    cursor:pointer;
+}
+input[type="text"],[type="email"]{
+width: 49%;
+border: none;
+    outline:none;
+    background: none;
+    color: white;
+   
+    border: .5px solid rgba(238, 238, 238,.2);
+    padding: 10px 5px 10px 5px;
+}
+textarea{
+    margin-top:30px;
+    background: none;
+    color: white;
+        border: .5px solid rgba(238, 238, 238,.2);
+    outline:none;
+    padding: 10px;
+}
+input:focus{
+    border-color: #66afe9;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+textarea:focus{
+      border-color: #66afe9;
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.075), 0 0 8px rgba(102,175,233,.6);
+}
+.foot,.map{
+    background-image: linear-gradient(rgba(27, 26, 37, 1), rgba(27, 26, 37,1));
+}
+.foot{
+    padding: 70px 0 70px 0;
+}
+.foot p{
+    font-size: 14px;
+}
+.foot i{
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 10px 0 0;
+    cursor: pointer;
+    
+}
+.type{
+    width: 100%;
+}
+.foot h4{
+    padding:0 42px 0 42px;
+}
+.foot li:hover{
+    color:gray;
+    
+}
+.type{
+    
+}
+.foot input{
+    outline:none;
+    border:none;
+}
+.alleft{
+    text-align:left;
+}
+.foot li{
+    font-size: 14px;
+    list-style: none;
+    cursor:pointer;
+    padding: 5px 0 5px 0;
+}
+.type{
+     border: .5px solid rgba(238, 238, 238,.2);
+}
+.foot input[type="submit"]{
+    padding: 10px;
+}
+.foot input{
+    border:none;
+    outline:none;
+    width: 40%;
+    height: 37px;
+    margin: 0;
+}
+.foot input[type="text"]:focus{
+    border:none;
+    outline:none;
+    box-shadow: none;
+}
+.type{
+    width: 100%;
+}
+.bgbl{
+    background-color: black;
+}
+.footerr {
+    background-color: black;
+    font-size: 14px;
+    text-align: center;
+    
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .bt {
@@ -384,10 +620,17 @@ h1 {
     .bt {
         font-size: 36px;
     }
+    .pms{
+        padding: 0!important;
+    }
 
     .prop h3 {
         font-size: 18px;
     }
+    .foot h4{
+    padding:0 10px 0 10px;
+        margin-top: 10px;
+}
 
     .prop i {
         font-size: 30px;
@@ -426,26 +669,42 @@ h1 {
     .titlem {
         top: 30%;
     }
-    .counter{
+
+    .counter {
         padding: 30px;
     }
-    .counter h3{
+
+    .counter h3 {
         font-size: 24px;
     }
-    .counter h2{
+
+    .counter h2 {
         font-weight: bold;
     }
-    .pad{
+
+    .pad {
         padding: 20px 0 20px 0;
     }
-    .cardd h3{
+
+    .cardd h3 {
         font-size: 16px;
     }
-    .cardd p{
+
+    .cardd p {
         font-size: 12px;
     }
-    .pmd{
-        padding-top: 50px!important;
+
+    .pmd {
+        padding-top: 50px !important;
+    }
+       textarea{
+        width: 100%;
+    }
+    input{
+        font-size: 10px;
+    }
+    textarea{
+        font-size: 10px;
     }
 }
 
@@ -473,14 +732,24 @@ h1 {
     .titlem {
         left: -15%;
     }
+
     .counter {
-padding: 30px 0 30px 0;
-        
-}
-    .counter h3{
+        padding: 30px 0 30px 0;
+
+    }
+
+    .counter h3 {
         font-size: 17px;
     }
-    .prr{
+
+    .prr {
         margin: auto;
+    }
+    input[type="text"],[type="email"]{
+        width: 100%;
+        margin-top:30px;
+    }
+    textarea{
+        width: 100%;
     }
 }
