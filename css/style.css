@@ -2,7 +2,19 @@ body {
     font-family: 'Poppins', sans-serif;
     color: #fff;
 }
-
+::-webkit-scrollbar {
+    width: 12px;
+    background-color: #201f27;
+}
+::-webkit-scrollbar-thumb {
+    background-color: #242331;
+    height: 65px;
+    border: 1px solid #999;
+}
+::-webkit-scrollbar-track {
+    background-color: #1a1924;
+    border-left: 1px solid #999;
+}
 .navbar {
     z-index: 10;
 }
@@ -11,14 +23,13 @@ body {
     color: white;
     text-decoration: none;
 }
-
 .landing-page {
     background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/back.jpg);
     background-size: cover;
     background-position: center;
 }
 
-li {
+.navb li {
     display: inline-block;
 }
 
@@ -202,6 +213,9 @@ h1 {
     background-color: black;
 }
 
+.aboutban li{
+    display: inline-block;
+}
 .aboutban a {
     color: #999;
     text-decoration: none;
@@ -302,6 +316,33 @@ h1 {
 }
 .our-prices{
     background-image:linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/prices.jpg) 
+}
+.pr{
+    background-color: rgba(29,28,39,0.69);
+        padding: 25px 0 50px;
+    
+}
+.pr h4{
+      background-image: linear-gradient(0deg, rgba(252, 78, 27, 0.9) 0%, rgba(246, 181, 51, 0.9) 100%) !important;
+    font-weight: 800;
+}
+.pr li{
+    list-style: none;
+    padding: 10px 0 10px 0;
+}
+.pr ul{
+    padding: 20px 0 20px 0;
+}
+.pr h2{
+    font-size: 45px;
+}
+.pr span{
+    font-size: 20px;
+}
+.particles{
+    background-image: linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(https://media.giphy.com/media/wOIhMhmfWTsGqxWZ6c/giphy.gif);
+    background-size: cover;
+    background-position: center;
 }
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .bt {
@@ -404,5 +445,8 @@ padding: 30px 0 30px 0;
 }
     .counter h3{
         font-size: 17px;
+    }
+    .prr{
+        margin: auto;
     }
 }
