@@ -300,6 +300,9 @@ h1 {
     padding: 0 20px 20px 20px;
     line-height: 1.1;
 }
+.our-prices{
+    background-image:linear-gradient(rgba(27, 26, 37, 0.9), rgba(27, 26, 37, 0.9)), url(../images/prices.jpg) 
+}
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .bt {
         font-size: 49px;
@@ -372,6 +375,7 @@ h1 {
 }
 
 
+
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .bordtab {
         border-right: none;
@@ -393,5 +397,12 @@ h1 {
 
     .titlem {
         left: -15%;
+    }
+    .counter {
+padding: 30px 0 30px 0;
+        
+}
+    .counter h3{
+        font-size: 17px;
     }
 }
